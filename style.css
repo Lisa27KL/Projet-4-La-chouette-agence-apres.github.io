@@ -647,7 +647,7 @@ h5,
 h6,
 p,
 label,
-.btn,
+.btn, blockquote,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
