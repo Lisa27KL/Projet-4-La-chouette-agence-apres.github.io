@@ -1646,102 +1646,102 @@ small {
 .mark,
 mark {
     padding: .2em;
-    background-color: #fcf8e3
+    background-color: #fcf8e3;
 }
 
 .text-left {
-    text-align: left
+    text-align: left;
 }
 
 .text-right {
-    text-align: right
+    text-align: right;
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
 }
 
 .text-justify {
-    text-align: justify
+    text-align: justify;
 }
 
 .text-nowrap {
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .text-lowercase {
-    text-transform: lowercase
+    text-transform: lowercase;
 }
 
 .text-uppercase {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .text-capitalize {
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .text-muted {
-    color: #777
+    color: #777;
 }
 
 .text-primary {
-    color: #337ab7
+    color: #337ab7;
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-    color: #286090
+    color: #286090;
 }
 
 .text-success {
-    color: #3c763d
+    color: #3c763d;
 }
 
 a.text-success:focus,
 a.text-success:hover {
-    color: #2b542c
+    color: #2b542c;
 }
 
 .text-info {
-    color: #31708f
+    color: #31708f;
 }
 
 a.text-info:focus,
 a.text-info:hover {
-    color: #245269
+    color: #245269;
 }
 
 .text-warning {
-    color: #8a6d3b
+    color: #8a6d3b;
 }
 
 a.text-warning:focus,
 a.text-warning:hover {
-    color: #66512c
+    color: #66512c;
 }
 
 .text-danger {
-    color: #a94442
+    color: #a94442;
 }
 
 a.text-danger:focus,
 a.text-danger:hover {
-    color: #843534
+    color: #843534;
 }
 
 .bg-primary {
     color: #fff;
-    background-color: #337ab7
+    background-color: #337ab7;
 }
 
 a.bg-primary:focus,
 a.bg-primary:hover {
-    background-color: #286090
+    background-color: #286090;
 }
 
 .bg-success {
-    background-color: #dff0d8
+    background-color: #dff0d8;
 }
 
 a.bg-success:focus,
@@ -6304,20 +6304,20 @@ a.thumbnail:hover {
 .media-left,
 .media-right {
     display: table-cell;
-    vertical-align: top
+    vertical-align: top;
 }
 
 .media-middle {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .media-bottom {
-    vertical-align: bottom
+    vertical-align: bottom;
 }
 
 .media-heading {
     margin-top: 0;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 .media-list {
@@ -6441,7 +6441,7 @@ a.list-group-item-success:hover,
 button.list-group-item-success:focus,
 button.list-group-item-success:hover {
     color: #3c763d;
-    background-color: #d0e9c6
+    background-color: #d0e9c6;
 }
 
 a.list-group-item-success.active,
@@ -6452,12 +6452,12 @@ button.list-group-item-success.active:focus,
 button.list-group-item-success.active:hover {
     color: #fff;
     background-color: #3c763d;
-    border-color: #3c763d
+    border-color: #3c763d;
 }
 
 .list-group-item-info {
     color: #31708f;
-    background-color: #d9edf7
+    background-color: #d9edf7;
 }
 
 a.list-group-item-info,
@@ -7682,7 +7682,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #0009;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

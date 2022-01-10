@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 0.753);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .d-bloc .a-btn:hover,
@@ -293,7 +293,6 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -302,7 +301,6 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -568,7 +566,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog {
     width: 90%;
     max-width: 900px;
-    margin: 0 auto 0;
+    margin: 0 auto ;
 }
 
 #lightbox-modal .modal-dialog img {
@@ -741,6 +739,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 270px;
+    height: 270px;
 }
 
 .portfolio-row {
