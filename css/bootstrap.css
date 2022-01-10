@@ -1373,19 +1373,19 @@ th {
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 :after,
 :before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -1393,7 +1393,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff
+    background-color: #fff;
 }
 
 button,
@@ -1402,32 +1402,32 @@ select,
 textarea {
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit
+    line-height: inherit;
 }
 
 a {
     color: #337ab7;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:focus,
 a:hover {
     color: #23527c;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -2px;
 }
 
 figure {
-    margin: 0
+    margin: 0;
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .carousel-inner>.item>a>img,
@@ -1437,7 +1437,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -5200,7 +5200,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-brand>img {
-    display: block
+    display: block;
+    width: 215px;
+    height: 40px;
 }
 
 @media (min-width:768px) {
@@ -7789,29 +7791,31 @@ button.close {
 .pager:after,
 .panel-body:after,
 .row:after {
-    clear: both
+    clear: both;
 }
 
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 100px;
+    height: 100px;
 }
 
 .pull-right {
-    float: right !important
+    float: right !important;
 }
 
 .pull-left {
-    float: left !important
+    float: left !important;
 }
 
 .hide {
-    display: none !important
+    display: none !important;
 }
 
 .show {
-    display: block !important
+    display: block !important;
 }
 
 .invisible {
