@@ -700,6 +700,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
 }
 
 h2 {
@@ -888,17 +892,6 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
     }
     .b-parallax {
         background-attachment: scroll;
