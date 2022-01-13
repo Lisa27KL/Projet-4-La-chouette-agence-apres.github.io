@@ -1014,17 +1014,17 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .portfolio-thumb{
+        margin-left: 55px;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
